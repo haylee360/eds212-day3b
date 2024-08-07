@@ -9,7 +9,7 @@ editor: visual
 ```{r}
 # create and store vector; character ----
 marmots <- c("blue", "green", 4, "yellow")
-marmots
+marmots # forces 4 into a character string
 class(marmots)
 
 # create and store vector; numeric ----
